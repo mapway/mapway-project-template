@@ -175,7 +175,8 @@
                                 <goals>
                                     <goal>genbean</goal>
                                 </goals>
-                                <inherited>false</inherited>
+                               
+                                <inherited>true</inherited>
                                 <configuration>
                                     <path>${project.basedir}/src/main/java</path>
                                     <driver>org.postgresql.Driver</driver>
