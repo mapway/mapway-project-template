@@ -1,0 +1,31 @@
+app:
+   datasource:
+       driver: org.postgresql.Driver
+       url: jdbc:postgresql://localhost/hangye
+       user: hangye
+       password: hangye
+ldap:
+    url: ldap://tds02.xinaogroup.com:389
+    base: DC=ENN,DC=COM
+    userDn: cn=users
+    password: 000
+ui:
+   imagePrefix: http://img.ennwifi.cn/
+   imageUploadProxyUrl: http://img.ennwifi.cn/api/v1/fileupload
+   mqttServer: emqtt.ennwifi.cn
+   mqttPort: 7002
+   mqttWsPath: /mqtt
+
+spring:
+   mvc:
+     view:
+        prefix: /
+        suffix: .jsp 
+   http:
+      multipart:
+        max-file-size: 50Mb
+        max-request-size: 50Mb 
+   metrics:
+      export:     
+        enabled: false
+    
