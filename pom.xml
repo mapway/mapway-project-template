@@ -132,7 +132,7 @@
                         <filtering>false</filtering>
                         <directory>src/main/java</directory>
                         <includes>
-                            <include>**/ref/*.*</include>
+                            <include>**/docref/*.*</include>
                         </includes>
                     </resource>
                     <resource>
@@ -281,7 +281,7 @@
                         <filtering>false</filtering>
                         <directory>src/main/java</directory>
                         <includes>
-                            <include>**/ref/*.*</include>
+                            <include>**/docref/*.*</include>
                         </includes>
                     </resource>
                     <resource>

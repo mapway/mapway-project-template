@@ -19,7 +19,7 @@ ui:
 spring:
    mvc:
      view:
-        prefix: /
+        prefix: WEB-INF/jsp/
         suffix: .jsp 
    http:
       multipart:
